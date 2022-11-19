@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--logo-->
+        <link rel="shortcut icon" href="./fotos/Logo hima png.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/house_icon_160035.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <!--Font Awesome (iconos)-->
+        <script src="https://kit.fontawesome.com/94cb1fd9b7.js" crossorigin="anonymous"></script>
+    <title>Himalaya</title>
+    <!--Css-->
+    <link rel="stylesheet" href="/css/hoja.css">
+</head>
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-ligt" style="background-image:linear-gradient(to right, rgb(255, 255, 255), rgb(42, 78, 107)); ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./fotos/Logo hima png.png" alt="logo" width="80">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <div>
+                            <h1 class="text-center">Catalogo</h1>
+                        </div>
+                    </div>
+                    <button id="btnregistrarse" class="btn btn-success"> Registrate </button>
+                </div>
+                    </ul>
+                </div>
+            </div>
+</nav>
+    </header>
+
+
+<body>
+        <div>
+            <div id="misprods" class="row ">
+                <!-- Aqui los productos -->
+            </div>
+            <div></div>
+            <p></p>
+        </div>
+
+        <div>
+            <h4>Tu compra:</h4>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody id="tablabody">
+
+                    <!-- Tabla carrito -->
+                </tbody>
+            </table>
+            <h4 id="total">Total a pagar $:</h4>
+        </div>
+        <button id="finalizar" class="btn btn-success">Finalizar Compra</button>
+    </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+    <!-- toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- sweet alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Mi script -->
+    <script src="script.js"></script>
+</body>
+
+
+<footer class="pieDePagina">
+    <div class="seguinos">
+        <h4>Seguinos en nuestras redes sociales</h4>
+    </div>
+    <div class="redes-sociales">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-solid fa-at"></i>
+    </div>
+</footer>
+
+</html>

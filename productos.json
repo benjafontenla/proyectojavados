@@ -1,0 +1,33 @@
+[{
+    "id": 1,
+    "foto": "./fotos/urban.JPG",
+    "nombre": "Remera urban",
+    "precio": 2000
+},
+{
+    "id": 2,
+    "foto": "./fotos/sale1.JPG",
+    "nombre": "Remera Nike",
+    "precio": 2500
+},
+{
+    "id": 3,
+    "foto": "./fotos/nfl2.jpg",
+    "nombre": "Camiseta NFL",
+    "precio": 7000
+},
+{
+    "id": 4,
+    "foto": "./fotos/nfl.jpg",
+    "nombre": "Promo NFL",
+    "precio": 12000
+},
+{
+    "id": 5,
+    "foto": "./fotos/conjunto.jpg",
+    "nombre": "Conjunto adidas",
+    "precio": 8000
+}
+
+]
+

@@ -1,0 +1,60 @@
+/*footer*/
+.pieDePagina {
+    display: grid;
+    height: 80px;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(139, 132, 132, 0.5), rgb(81, 142, 192));
+    color: rgb(0, 0, 0);
+    grid-template-areas: "desarrollado seguinos redes-sociales";
+}
+
+.pieDePagina .desarrollado {
+    grid-area: desarrollado;
+    display: flex;
+    justify-content: center;
+}
+
+.pieDePagina .seguinos {
+    grid-area: seguinos;
+    display: flex;
+    justify-content: center;
+}
+
+.pieDePagina .redes-sociales {
+    grid-area: redes-sociales;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+
+/*card y btn*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+.btn:hover {
+    background-color:blue;
+    border-color: white;
+}
+.btn {
+    background-color:#00aaff;
+    color: rgb(212, 224, 212);
+    border-color: white;
+}
+.btn-primary {
+    color:white;
+    background-color:#00aaff;
+    border-color: white;
+}
+
+.card {
+margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
